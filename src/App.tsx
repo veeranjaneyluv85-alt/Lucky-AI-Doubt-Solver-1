@@ -14,7 +14,11 @@ const App: React.FC = () => {
   useEffect(() => {
     const savedProfile = localStorage.getItem('lucky_profile');
     if (savedProfile) {
-      setProfile(JSON.parse(savedProfile));
+      try {
+        setProfile(JSON.parse(savedProfile));
+      } catch (e) {
+        console.error("Failed to parse saved profile", e);
+      }
     }
     setIsInitialized(true);
   }, []);
