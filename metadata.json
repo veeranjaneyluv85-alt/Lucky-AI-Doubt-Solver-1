@@ -1,0 +1,7 @@
+{
+  "name": "Lucky AI Doubt Solver",
+  "description": "An educational AI-powered doubt solver for students featuring visual problem solving and adaptive quizzes.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
