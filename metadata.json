@@ -1,7 +1,7 @@
 {
+  "name": "Lucky AI Doubt Solver (main)",
+  "description": "A smart educational assistant named Lucky that helps students from Class 6 to B.Tech solve doubts and practice with AI-generated quizzes.",
   "requestFramePermissions": [
     "camera"
-  ],
-  "name": "",
-  "description": ""
+  ]
 }
